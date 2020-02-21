@@ -16,7 +16,7 @@ public class CustomChat extends Module {
 
     private Setting<Boolean> commands = register(Settings.b("Commands", false));
 
-    private final String KAMI_SUFFIX = " \u23D0 \u1D0B\u1D00\u1D0D\u026A";
+    private final String KAMI_SUFFIX = " \u23D0 \u0053\u0069\u0065\u006C\u0064\u006F\u006E.\u0043\u0075\u1D0D";
 
     @EventHandler
     public Listener<PacketEvent.Send> listener = new Listener<>(event -> {
